@@ -1,0 +1,238 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: #eeb9d5;
+  }
+  
+  .container .hero {
+    position: relative;
+    z-index: 10;
+    height: 85vh;
+    width: 75%;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border: 3px solid #b48ba2;
+    border-radius: 20px;
+    box-shadow: -15px 17px 17px rgb(10, 10, 10, 0.15);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-link {
+    display: flex;
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: #555;
+    margin-right: 20px;
+  }
+  
+  .nav-link a.Active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .text h4 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .text p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .div-img {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .div-img img {
+    border-radius: 80%;
+  }
+  /* Define styles for the Portfolio section */
+#Portfolio {
+  padding: 50px 0;
+  background-color: #b48ba2;
+}
+
+/* Style the heading */
+.headings {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style the gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between images */
+}
+
+/* Style individual images */
+.gallery img {
+  width: 100%; /* Make images fill the grid cells */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+}
+/* Define styles for the Services section */
+#Services {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  backdrop-filter: blur(25px);
+  border: 3px solid #b48ba2;
+}
+
+/* Style the heading */
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style the row of service boxes */
+.row {
+  display: flex;
+  justify-content: space-around; /* Center-align boxes with equal spacing */
+}
+
+/* Style individual service boxes */
+.box {
+  width: 45%; /* Adjust box width as needed */
+  padding: 20px;
+  background-color: #b48ba2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  text-align: center;
+}
+
+/* Style the service box image */
+.box img {
+  width: 100px; /* Adjust image size as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style the sub-heading */
+.sub-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+/* Define styles for the Contact section */
+#Contact {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  backdrop-filter: blur(25px);
+  border: 3px solid #b48ba2;
+}
+
+/* Style the heading */
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style the form */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b48ba2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style textarea */
+.textarea {
+  height: 150px;
+}
+
+/* Style submit button */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+.submit-btn:hover {
+  background-color: #555;
+}
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+
+  
