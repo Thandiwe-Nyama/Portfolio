@@ -121,15 +121,15 @@
 /* Style the gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
-  gap: 20px; /* Adjust the gap between images */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
 }
 
 /* Style individual images */
 .gallery img {
-  width: 100%; /* Make images fill the grid cells */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px; /* Add some border-radius for rounded corners */
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px;
 }
 /* Define styles for the Services section */
 #Services {
@@ -148,22 +148,22 @@
 /* Style the row of service boxes */
 .row {
   display: flex;
-  justify-content: space-around; /* Center-align boxes with equal spacing */
+  justify-content: space-around; 
 }
 
 /* Style individual service boxes */
 .box {
-  width: 45%; /* Adjust box width as needed */
+  width: 45%; 
   padding: 20px;
   background-color: #b48ba2;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   text-align: center;
 }
 
 /* Style the service box image */
 .box img {
-  width: 100px; /* Adjust image size as needed */
+  width: 100px; 
   height: auto;
   margin-bottom: 20px;
 }
